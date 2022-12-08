@@ -3,7 +3,7 @@
 
 
 # use jupyter/scipy-notebook as the base image and
-FROM jupyter/scipy-notebook:85f615d5cafa
+FROM jupyter/scipy-notebook
 
 # install docopt python package
-RUN python -m pip install docopt-ng=0.8.1 -y
+RUN conda install --yea docopt=0.6.*
