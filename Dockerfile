@@ -6,4 +6,4 @@
 FROM jupyter/scipy-notebook
 
 # install docopt python package
-RUN conda install --yea docopt=0.6.*
+RUN conda install --yes docopt=0.6.*
